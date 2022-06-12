@@ -18,40 +18,42 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="B"
           status="correct"
         />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
         <Cell value="Y" />
+        <Cell value="R" />
+        <Cell value="O" />
+        <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter B is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="T" />
+        <Cell value="O" />
+        <Cell value="R" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="K"
           status="present"
         />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="A" />
+        <Cell value="R" />
+        <Cell value="D" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter K is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
+        <Cell value="R" />
         <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="F" />
+        <Cell value="F" />
+        <Cell value="S" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter U is not in the word in any spot.
@@ -61,7 +63,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/markzither/react-wordle"
           className="underline font-bold"
         >
           check out the code here
