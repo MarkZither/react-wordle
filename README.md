@@ -88,6 +88,7 @@ Open [http://localhost](http://localhost) in browser.
 
 ### Fun themes
 
+- [Hucknall](https://hucknurdle.mark-burton.com): Hucknall, Nottingham
 - ['en si lì'ur](https://tirea.learnnavi.org/wordle): Na'vi, the constructed language from James Cameron's AVATAR (2009)
 - [Airportle](https://airportle.scottscheapflights.com/): Airport Codes
 - [Anidal](https://anidal-abrarhayat.web.app/): Animals
@@ -187,7 +188,13 @@ Note that guesses are validated against both the length of the solution, and pre
 
 ### How can I add usage tracking?
 
-This repository includes support for Google Analytics or [Plausible Analytics](https://plausible.io), but, by default, this is disabled.
+This repository includes support for [Matomo Analytics](https://matomo.org/) Google Analytics or [Plausible Analytics](https://plausible.io), but, by default, this is disabled.
+
+To enable Matomo Analytics:
+
+- Create a new website with Matomo Analytics with a given domain, e.g. `example.app`
+- In [.env](.env), add `REACT_APP_MATOMO_DOMAIN=example.app`
+- In [.env](.env), add `REACT_APP_MATOMO_SITEID=1`
 
 To enable Google Analytics:
 
