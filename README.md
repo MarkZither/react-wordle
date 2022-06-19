@@ -193,7 +193,7 @@ This repository includes support for [Matomo Analytics](https://matomo.org/) Goo
 To enable Matomo Analytics:
 
 - Create a new website with Matomo Analytics with a given domain, e.g. `example.app`
-- In [.env](.env), add `REACT_APP_MATOMO_DOMAIN=example.app`
+- In [.env](.env), add `REACT_APP_MATOMO_DOMAIN=example.app` this is the domain where your Matomo instance runs, not the domain you want to track.
 - In [.env](.env), add `REACT_APP_MATOMO_SITEID=1`
 
 To enable Google Analytics:
