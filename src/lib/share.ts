@@ -21,7 +21,7 @@ export const shareStatus = (
   const textToShare =
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
-    }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
+    }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n${window.location.href} \n` +
     generateEmojiGrid(
       solution,
       guesses,
