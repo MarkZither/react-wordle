@@ -8,6 +8,7 @@ export const WORDS = [
     'POETS',
     'MAPLE',
     'NABBS',
+    'yellow',
     'SOUTH',
     'DOREY',
     'PLUMB',
