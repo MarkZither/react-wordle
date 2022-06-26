@@ -207,3 +207,9 @@ To enable Plausible Analytics:
 
 - Create a new website with Plausible Analytics with a given domain, e.g. `example.app`
 - In [.env](.env), add `REACT_APP_PLAUSIBLE_DOMAIN=example.app`
+
+### Datasources
+- https://www.findmystreet.co.uk/street-list?Street=&providerId=3055&District=ASHFIELD&Town=HUCKNALL&Sort=sd-asc&SortLanguage=ENG&PageSize=0
+- https://en.wikipedia.org/wiki/Hucknall
+- http://www.htrg.co.uk/
+- http://www.nottshistory.org.uk/hucknall1909/hucknall16.htm
