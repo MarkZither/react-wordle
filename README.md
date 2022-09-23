@@ -213,3 +213,4 @@ To enable Plausible Analytics:
 - https://en.wikipedia.org/wiki/Hucknall
 - http://www.htrg.co.uk/
 - http://www.nottshistory.org.uk/hucknall1909/hucknall16.htm
+- http://www.nottshistory.org.uk/books/hucknallchurch/titlepage.htm
