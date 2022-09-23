@@ -6,13 +6,17 @@ import { default as GraphemeSplitter } from 'grapheme-splitter'
 
 export const isWordInWordList = (word: string) => {
   return (
-    WORDS.includes(localeAwareLowerCase(word)) ||
-    VALID_GUESSES.includes(localeAwareLowerCase(word))
+    WORDS.some(element => {
+      return element.toLowerCase() === word.toLowerCase();
+    }) ||
+    VALID_GUESSES.some(element => {
+      return element.toLowerCase() === word.toLowerCase();
+    })
   )
 }
 
 export const isWinningWord = (word: string) => {
-  return solution === word
+  return localeAwareLowerCase(solution) === localeAwareLowerCase(word)
 }
 
 // build a set of previously revealed letters - present and correct
