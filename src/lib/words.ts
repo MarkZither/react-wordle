@@ -6,11 +6,11 @@ import { default as GraphemeSplitter } from 'grapheme-splitter'
 
 export const isWordInWordList = (word: string) => {
   return (
-    WORDS.some(element => {
-      return element.toLowerCase() === word.toLowerCase();
+    WORDS.some((element) => {
+      return element.toLowerCase() === word.toLowerCase()
     }) ||
-    VALID_GUESSES.some(element => {
-      return element.toLowerCase() === word.toLowerCase();
+    VALID_GUESSES.some((element) => {
+      return element.toLowerCase() === word.toLowerCase()
     })
   )
 }
@@ -95,7 +95,7 @@ export const getWordOfDay = () => {
 
   return {
     solution: localeAwareUpperCase(WORDS[index % WORDS.length]),
-    solutionIndex: index+1,
+    solutionIndex: index + 1,
     tomorrow: nextDay.valueOf(),
   }
 }
